@@ -12,7 +12,7 @@
 }
 
 :root{
-    --bg-color:#081b29;
+    --bg-color:rgb(8, 27, 41);
     --second-bg-color:#112e42;
     --text-color:#ededed;
     --main-color:#00abf0;
@@ -76,6 +76,9 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9rem;
+    background: url('/assest/image/bg001.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home-content{
@@ -212,7 +215,20 @@ section{
 }
 
 
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
 
+.home-imgHover:hover{
+    background: var(--bg-color);
+    opacity: 0.8;
+}
 
 
 
