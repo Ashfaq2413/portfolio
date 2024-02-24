@@ -220,7 +220,7 @@ section{
 .home-imgHover{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 2rem;
     width: 50%;
     height: 100%;
     background: transparent;
@@ -309,8 +309,10 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: auto;
+    /* min-height: auto; */
+    height: 200px;
     padding-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .education .education-row{
@@ -321,6 +323,14 @@ span{
 
 .education-row .education-column{
     flex: 1 1 40rem;
+}
+
+#column1{
+    margin-left: 2rem;
+}
+
+#column2{
+    margin-right: 2rem;
 }
 
 .education-column .tittle{
