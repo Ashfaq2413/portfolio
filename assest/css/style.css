@@ -78,7 +78,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9rem;
-    background: url("assest/image/bg001.jpg") no-repeat;
+    background-image: url("assest/image/bg001.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
