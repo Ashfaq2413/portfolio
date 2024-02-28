@@ -12,10 +12,10 @@
 }
 
 :root{
-    --bg-color:#081b29;
-    --second-bg-color:#112e42;
+    --bg-color:#102843;
+    --second-bg-color:#002b6b;
     --text-color:#ededed;
-    --main-color:#00abf0;
+    --main-color:#17ffc6;
 }
 
 html{
@@ -79,7 +79,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9rem;
-    background: url('/assest/image/bg001.jpg') no-repeat;
+    background: url('/assest/image/bg1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -560,7 +560,7 @@ span{
     left: 0;
     width: 0;
     height: 100%;
-    background: red;
+    background: var(--main-color);
     border-radius: 0.6rem;
     z-index: -1;
     transition: 0.5s;
